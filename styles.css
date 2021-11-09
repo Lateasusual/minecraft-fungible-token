@@ -1,0 +1,71 @@
+@font-face {
+    font-family: minecraftiaregular;
+    src: url(minecraftia-webfont.woff);
+  }
+  
+html, body {
+    margin: 0;
+    background: url(img/dirt.webp) repeat;
+    background-size: 64px 64px;
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+}
+
+.mcbook {
+    font-family: 'minecraftiaregular','Code2000';
+    font-size: 18px;
+    margin: 0 auto;
+    width: 277px;
+    height: 366px;
+    background: url(img/book.png) no-repeat center top;
+    word-break: keep-all;
+    text-align: left;
+    padding: 33px 35px 33px 38px;
+    line-height: 22px;
+    position: relative;
+    transform: translate(0, 50%);
+}
+
+.submitbutton {
+    display: inline-block;
+    position: relative;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 59px;
+    width: 293px;
+    transform: translate(0, 50px);
+    background: url(img/sign_button.png);
+}
+
+textarea {
+    font-family: 'minecraftiaregular','Code2000';
+    font-size: 18px;
+
+    margin: 0 auto;
+    width: 277px;
+    height: 320px;
+    resize: none;
+    background: none;
+    border: none; 
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.overlay_video video {
+    display: block;
+
+    margin: 0 auto;
+    padding: 0px;
+    border: 0px;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    object-fit: fill;
+    transition: 1s opacity;
+}
